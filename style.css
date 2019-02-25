@@ -1,0 +1,795 @@
+
+body{
+font-family: "Titillium Web", sans-serif;
+margin:0;
+padding: 0;
+color: #8e9696;
+overflow-x: hidden;
+}
+
+
+/* top nav bar */
+
+.container{
+	margin-top: 150px;
+}
+
+span{
+	color: #fe6d34;
+}
+
+.btn{
+
+	background: #fe6d34;
+	border-radius: 20px;
+	color:white;
+	height: 43px;
+	
+	
+}
+
+h1{
+	color: #143d3c;
+}
+
+.container h1+p {
+	margin-top: 30px;
+}
+
+ hr{
+
+ 	width: 90%;
+ 	margin-top: 60px;
+
+ }
+
+.card{
+
+	 box-shadow: -5px 4px 9px 9px rgba(135, 233, 144, 0.1);
+}
+
+input{
+	opacity: 0.5;
+}
+
+textarea{
+	opacity: 0.5;
+}
+
+/* ********************************** top nav bar ************************************ */
+
+
+
+#topnavbar{
+
+     border: 1px hidden black;
+	 background: #262626;
+	 height: 60px;
+	 width: 100%;
+	 
+}
+
+/* logobrand*/
+
+
+.logo-brand{
+     	
+	margin-top: 10px; 
+	margin-left: 150px;
+	float: left;
+
+}
+
+
+.buy-button{
+
+	float: right;
+	margin-top: 12px;
+}
+
+.remove-frame{
+	
+	float: right;
+	margin: 10px;
+	border-left: 1px solid lightgray;
+}
+
+
+.topnavbar .removeframe{
+
+	font-size: 13px;
+}
+
+
+.listend{
+
+	border-left:1px solid lightgray;
+
+}
+
+.topnavbar .logo{
+
+	margin-top: -15px;
+
+}
+
+
+
+@media screen and (max-width: 1155px){
+
+.topnavbar .framelink .removeframe{
+
+	display: none;
+
+}
+
+}
+
+.btn-buy{
+
+	border-radius:4px;
+	background: green;
+	height: 35px;
+	font-size: 15px;
+	max-width: 100px;
+	position: absolute;
+	margin-left: -85px;
+
+}
+
+.btn-buy .buynow{
+	margin-top: -15px;
+
+}
+
+
+
+@media screen and (max-width: 1590px){
+
+   .topnavbar{
+   	width: 100%;
+   }
+
+   .remove-frame span{
+   	display: none;
+   }
+
+}
+
+/* *** correction the position of logo on the top navbar *** */
+
+@media screen and (max-width: 1645px){
+	.logo-brand{
+		
+		margin-left: -40px;
+	}
+}
+
+/* ** button hamburger ** */
+
+.contnav .navbar-toggler i{
+	margin-left: 25px;
+	background: #fe6d34;
+	font-size: 35px;
+	margin-top: -5px;
+}
+
+.navbar-toggler{
+	border: none;
+	background: white;
+}
+
+/* ********************************** second nav bar ********************************* */
+
+.secondnavbar{
+
+	position: absolute;
+	margin-top: 200px;
+	color: #8e9696;
+}
+
+.brand{
+	
+	width: 170px;
+}
+
+.contnav{
+	margin-top: 2px;
+	
+}
+
+.navbar{
+
+	width: 95%;
+}
+
+#navbarNav ul{
+	margin: 0 auto;
+}
+
+#navbarNav ul li{
+	padding: 17px;
+	color:black;
+}
+
+.navbar-brand{
+	margin-left: -100px;
+}
+
+#navbarNav .number-nav{
+position: absolute;
+	margin-left: -40px;
+}
+
+.btn-contact{
+	min-width: 200px;
+	height: 45px;
+}
+
+/* nouveau */
+
+@media screen and (max-width: 1544px){
+	.number-nav{
+	display: none;
+}
+
+}
+
+@media screen and (max-width: 1390px){
+	.btn-contact{
+	display: none;
+}
+
+.navbar{
+	width: 100%;
+	margin-left: -20px;
+}
+
+}
+
+
+@media screen and (max-width: 504px){
+.brand{
+	width: 130px;
+}
+
+}
+
+@media screen and (max-width: 1312px){
+.navbar-brand{
+	margin-left: 5px;
+}
+
+}
+
+
+@media screen and (max-width: 488px){
+.navbar-brand{
+	margin-left: -50px;
+}
+
+.image-triange{
+	z-index: -5;
+}
+
+}
+
+/* **** positionning nav-brand **** */
+
+@media screen and (max-width: 1645px) and (min-width: 570px) {
+
+	.navbar-brand{
+		margin-left: 100px;
+	}
+
+}
+
+
+@media screen and (max-width: 960px) and (min-width: 385px) {
+
+	.navbar-brand{
+		margin-left: -10px;
+	}
+
+}
+
+
+@media screen and (max-width: 420px) and (min-width: 360px){
+	.navbar-brand{
+		margin-left: -90px;
+	}
+}
+
+
+/* *******  hide number on the top navbar *******  */
+
+@media screen and (max-width: 1256px){
+	.number-nav{
+	display: none;
+}
+}
+
+
+.brand{
+	margin-left: 85px;
+}
+
+.navbar-toggler{
+	border:none;
+	background: #fe6d34;
+	height: 35px;
+	width: 40px;
+}
+
+
+@media screen and (min-width: 1650px){
+
+	.contnav{
+		width: 50%;
+	}
+}
+
+
+@media screen and (max-width: 490px){
+
+
+	.contnav{
+		margin-left: -5px;
+	}
+
+	.image-triange{
+		z-index: -5;
+	}
+
+}
+
+
+@media screen and (max-width: 960px){
+	.logo{
+      margin-left: 50px;
+	}
+}
+
+.navbar .navbar-toggler{
+margin-left: 0px;
+}
+
+
+
+/* ****************************** grow your business ************************************ */
+
+
+.container .title-business{
+	margin-top: 30px;
+	font-size: 50px;
+	margin-left: -15px;
+}
+
+.container .text-secondary{
+	margin-left: -10px;
+}
+
+
+.container .growbusinessimg{
+
+	margin-left: 20px;
+	
+	margin-top: -20px;
+}
+
+
+.container .card-bodybusiness h5+p{
+	margin-top: 20px;
+}
+
+
+.card-space{
+	margin-top: 90px;
+}
+
+.container .portfolio{
+	margin-top: 50px;
+}
+
+
+.growbusiness .growbusinessimg{
+    
+	margin-top: -60px;
+}
+
+.image-triange{
+	position: absolute;
+	margin-top: -76px;
+	margin-left: -1px;
+	width: 150px;
+	
+}
+
+.text-left .usandteam{
+	
+margin-top: 50px;
+
+}
+
+.growbusinessimgcard{
+
+	font-size: 30px;
+}
+
+.business-button{
+
+     border-radius: 70px;
+	height: 90px;
+	width: 90px;
+	margin-top: 75px;
+}
+
+.business-buttonwink{
+
+       border-radius: 70px;
+	height: 90px;
+	width: 90px;
+	margin-top: 75px;
+	background: rgb(204, 204, 255);
+}
+
+.business-buttondata{
+
+     border-radius: 70px;
+	height: 90px;
+	width: 90px;
+	margin-top: 75px;
+	background: rgb(115, 194, 251);
+}
+
+.card-business{
+	height: 380px;
+}
+
+.bas-page{
+
+	margin-left: 1090px;
+	margin-top: -370px;
+	height: 430px;
+
+}
+
+
+/* ***** hide image business ***** */
+
+
+
+@media screen and (max-width: 1192px){
+
+	.bas-page{
+
+		margin-left: 860px;
+	}
+
+}
+
+
+
+@media screen and (max-width: 990px){
+
+	.growbusinessimg{
+		display: none;
+	}
+	.bas-page{
+		display: none;
+	}
+	
+}
+
+
+/* ***** top pattern properties ***** */
+
+.image-triange{
+	position: absolute;
+	margin-top: -92px;
+}
+
+@media screen and (max-width: 990px){
+
+	.image-triange{
+		margin-top: -70px;
+	}
+}
+
+
+@media screen and (max-width: 936px){
+
+	.image-triange{
+		margin-top: -70px;
+	}
+
+	.brand{
+	margin-left: 98px;
+}
+
+}
+
+/* ****** navbar-brand and brand image position ******  */
+
+@media screen and (max-width: 350px){
+
+
+	.navbar-brand .brand{
+	margin-left: 50px;
+}
+
+	.brand{
+	margin-left: 98px;
+	width: 100px;
+}
+
+
+}
+
+
+@media screen and (max-width: 1330px){
+
+	.bas-page{
+		display: none;
+	}
+}
+
+/* ************************************************** who we are ******************************** */
+
+.shortbriefimagg{
+	position: absolute;
+	margin-top: -70px;
+	margin-left: 550px;
+}
+
+.shortbriefimag{
+	width: 455px;
+	margin-left: 0px;
+	margin-top: 20px;
+
+}
+
+@media screen and (max-width: 1272px){
+	.shortbriefimagg{
+		display: none;
+	}
+	.shortbriefimag{
+		
+		margin-top: 70px;
+	}
+}
+
+@media screen and (max-width: 1088px){
+	.shortbriefimag{
+		
+		margin-top: 80px;
+	}
+}
+
+/* ** hide btn-buy ** */
+
+@media screen and (max-width: 435px){
+
+
+	.btn-buy{
+		display: none;
+	}
+
+}
+
+@media screen and (max-width: 490px) and (min-width: 425px){
+	.navbar-brand {
+		margin-left: -100px;
+	}
+}
+
+/* *** top pattern *** */
+
+@media screen and (max-width: 500px){
+	.image-triange{
+		margin-top: -60px;
+	}
+}
+
+ /* ******* logo position ****** */
+
+@media screen and (max-width: 470px) and (min-width: 320px){
+	.logo{
+		margin-left: 20px;
+	}
+}
+/* ************************************ our best service ***************************************** */
+
+.imgourbestservice{
+	position: absolute;
+	margin-top: 5px;
+  margin-left: -100px;
+  z-index: -5;
+}
+
+.imgfile{
+
+	font-size: 35px;
+	margin: 0 auto;
+	color: #fe6d34;
+	margin-top: 90px;
+	border: none;
+
+}
+
+.ourbestservice .card{
+	height: 350px;
+	margin-top: 110px;
+}
+
+
+.ourbestservice .card .imgfile{
+	margin-top: 90px;
+	border: none;
+}
+
+@media screen and (max-width: 832px){
+.imgourbestservice{
+	display: none;
+}
+.containerreviewphoto{
+	display: none;
+}
+}
+
+/* ************************************** recent work ******************************************* */
+
+.recentworkimage{
+	position: absolute;
+	margin-top: -190px;
+	z-index: -5;
+}
+
+.cartebasic{
+
+	
+	 box-shadow: -5px 4px 9px 9px rgba(135, 233, 144, 0.1);
+}
+
+/* ************************************** latestblogimg ****************************************** */
+.latestblogimg{
+	position: absolute;
+	margin-top: -90px;
+	margin-left: -100px;
+	z-index: -5;
+}
+
+@media screen and (max-width: 528px){
+	.latestblogimg{
+		display: none;
+	}
+}
+/* *********************************** section card basic ************************************** .. */
+
+
+.group-span span{
+
+	display: block;
+	line-height: 30px;
+}
+
+.crown{
+	font-size: 50px;
+}
+
+.number{
+	font-size: 50px;
+}
+/* ************************************************** client review ************************************* */
+
+.brandtranslate{
+	margin-top: 140px;
+}
+
+.imageclientreview{
+	position: absolute;
+	z-index: -5;
+	margin-left: 1px;
+	margin-top: -40px;
+}
+
+.containerreviewphoto{
+
+	background: url('image/testimonial-bg-shape.png') no-repeat;
+     background-position: left;
+
+}
+
+.clientimg{
+	margin-left: -130px;
+}
+
+.fa-quote-left{
+	font-size: 45px;
+}
+
+@media screen and (max-width: 320px){
+	.shortbriefcadre{
+		display: none;
+	}
+}
+/************************************** Contact ********************************************* */
+
+.contact-card-body span{
+
+	display: block;
+
+
+}
+
+.contact-card-body .list-contacte{
+	width: 90%;
+	color: lightgray;
+	margin-top: 22px;
+	opacity: 0.6;
+}
+
+.card-contact{
+	margin-top: 120px;
+	border: none;
+}
+
+.contact-card-body i{
+	color: #fe6d34
+}
+
+
+/* ******************************** last menu ********************************************* */
+
+.lastmenuglobal{
+	background: url('image/footer-bg.png');
+}
+
+.lastmenu-logolabel .bouton-socialmedia{
+	background: lightgray;
+}
+
+.lastmenu-logolabel .bouton-socialmedia:hover{
+
+	color: lightgray;
+	background: #fe6d34;
+}
+
+.lastmenu-logolabel span{
+	display: inline;
+	padding: 1px;
+}
+
+.navigationliste span{
+	display: block;
+	line-height: 40px;
+}
+
+.lastmenuglobal .navigationliste{
+background: url('image/footer-bg.png');
+
+}
+
+.backgroundfooter{
+
+	position: absolute;
+	margin-left: -290px;
+	margin-top: 90px;
+}
+
+.menulogo{
+	width: 190px;
+}
+
+@media screen and (max-width: 1584px){
+
+	.backgroundfooter{
+		display: none;
+	}
+}
+/* **************************************** footer ****************************************** */
+
+
+footer{
+	margin-top: 160px;
+}
